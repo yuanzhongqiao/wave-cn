@@ -7,104 +7,134 @@
 
 <p align="center"><a href="https://www.producthunt.com/posts/wave-2-0" target="_blank"><img src="https://cdn.devdojo.com/images/april2021/upvote-product-hunt-img.png" height="auto" width="auto"></a></p>
 
-## Introduction
-
-[Wave](https://devdojo.com/wave) is a Software as a Service Starter Kit that can help you build your next great idea 💰. Wave is built with [Laravel](https://laravel.com), [Voyager](https://voyager.devdojo.com), [TailwindCSS](https://tailwindcss.com), and a few other awesome technologies. Here are some of the awesome features ✨:
-
- - [Authentication](https://wave.devdojo.com/docs/features/authentication)
- - [User Profiles](https://wave.devdojo.com/docs/features/user-profiles)
- - [User Impersonation](https://wave.devdojo.com/docs/features/user-impersonation)
- - [Subscriptions](https://wave.devdojo.com/docs/features/billing)
- - [Subscription Plans](https://wave.devdojo.com/docs/features/subscription-plans)
- - [User Roles](https://wave.devdojo.com/docs/features/user-roles)
- - [Notifications](https://wave.devdojo.com/docs/features/notifications)
- - [Announcements](https://wave.devdojo.com/docs/features/announcements)
- - [Fully Functional Blog](https://wave.devdojo.com/docs/features/blog)
- - [Out of the Box API](https://wave.devdojo.com/docs/features/api)
- - [Voyager Admin](https://wave.devdojo.com/docs/features/admin)
- - [Customizable Themes](https://wave.devdojo.com/docs/features/themes)
-
-
-## Demo
-View a live [demo here](https://wave.devdojo.com), or deploy your own instance to DigitalOcean, by clicking the button below.
-
-<a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/thedevdojo/wave/tree/main" target="_blank"><img src="https://www.deploytodo.com/do-btn-blue.svg" width="240" alt="Deploy to DO"></a>
-
-## Installation
-
-Wave runs on **PHP 8.1** and **Laravel 10.x**.
-
-To install Wave, you'll want to clone or download this repo:
-
-```
-git clone https://github.com/thedevdojo/wave.git project_name
-```
-
-Next, we can install Wave with these **4 simple steps**:
-
-### 1. Create a New Database
-
-We'll need to utilize a MySQL database during the installation. For the following stage, you'll need to create a new database and preserve the credentials.
-
-```sql
-CREATE DATABASE wave;
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto"><a href="https://devdojo.com/wave" rel="nofollow"><img src="https://camo.githubusercontent.com/37e300e91181e6355b7d74d03cfa95ee2ca01b9e033ad9e04b39ddb82e2eb3c8/68747470733a2f2f63646e2e646576646f6a6f2e636f6d2f696d616765732f73657074656d626572323032332f776176652d6c6f676f2e706e67" width="200" data-canonical-src="https://cdn.devdojo.com/images/september2023/wave-logo.png" style="max-width: 100%;"></a></p>
+<blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您正在寻找使用 Tallstack 以及</font></font><a href="https://laravel.com/docs/folio" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Folio</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://livewire.laravel.com/docs/volt" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Volt</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">的 Laravel 入门套件，您可能有兴趣查看</font></font><a href="https://github.com/thedevdojo/genesis"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Genesis</font></font></a></p>
+</blockquote>
+<p align="center" dir="auto"><a href="https://github.com/thedevdojo/genesis"><img width="1280" alt="起源" src="https://private-user-images.githubusercontent.com/601261/266150601-a5e8aab9-0beb-42d7-be27-12da1ce83699.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDU5ODQ0ODEsIm5iZiI6MTcwNTk4NDE4MSwicGF0aCI6Ii82MDEyNjEvMjY2MTUwNjAxLWE1ZThhYWI5LTBiZWItNDJkNy1iZTI3LTEyZGExY2U4MzY5OS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEyM1QwNDI5NDFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0yZmJiNDgwYzMxYjA1MGJjZTFiN2M1ZmFjOTViN2Y5MzRjNDU0ZGRkYmU1MjRlNTI5YWE3ODk2NjY5MTkxYzExJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.UCKqGGCPTtdKuR3Sw5RsVoAcIhB8M2NkNuqjmpkI0Hs" secured-asset-link="" style="max-width: 100%;"></a></p>
+<p align="center" dir="auto"><a href="https://www.producthunt.com/posts/wave-2-0" rel="nofollow"><img src="https://camo.githubusercontent.com/77e1952f2883ac4f5de18a6d3a26ca3a71b86d83ae26c94f6eb96421a39cd0a5/68747470733a2f2f63646e2e646576646f6a6f2e636f6d2f696d616765732f617072696c323032312f7570766f74652d70726f647563742d68756e742d696d672e706e67" height="auto" width="auto" data-canonical-src="https://cdn.devdojo.com/images/april2021/upvote-product-hunt-img.png" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-introduction" class="anchor" aria-hidden="true" tabindex="-1" href="#introduction"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">介绍</font></font></h2>
+<p dir="auto"><a href="https://devdojo.com/wave" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Wave</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一款软件即服务入门套件，可以帮助您构建下一个伟大的想法💰。</font><font style="vertical-align: inherit;">Wave 是用</font></font><a href="https://laravel.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Laravel</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://voyager.devdojo.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Voyager</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://tailwindcss.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">TailwindCSS</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和其他一些很棒的技术构建的。</font><font style="vertical-align: inherit;">以下是一些很棒的功能✨：</font></font></p>
+<ul dir="auto">
+<li><a href="https://wave.devdojo.com/docs/features/authentication" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">验证</font></font></a></li>
+<li><a href="https://wave.devdojo.com/docs/features/user-profiles" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户资料</font></font></a></li>
+<li><a href="https://wave.devdojo.com/docs/features/user-impersonation" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户模拟</font></font></a></li>
+<li><a href="https://wave.devdojo.com/docs/features/billing" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">订阅</font></font></a></li>
+<li><a href="https://wave.devdojo.com/docs/features/subscription-plans" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">订阅计划</font></font></a></li>
+<li><a href="https://wave.devdojo.com/docs/features/user-roles" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户角色</font></font></a></li>
+<li><a href="https://wave.devdojo.com/docs/features/notifications" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通知</font></font></a></li>
+<li><a href="https://wave.devdojo.com/docs/features/announcements" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">公告</font></font></a></li>
+<li><a href="https://wave.devdojo.com/docs/features/blog" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">功能齐全的博客</font></font></a></li>
+<li><a href="https://wave.devdojo.com/docs/features/api" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">开箱即用的 API</font></font></a></li>
+<li><a href="https://wave.devdojo.com/docs/features/admin" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">航行者管理员</font></font></a></li>
+<li><a href="https://wave.devdojo.com/docs/features/themes" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可定制的主题</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-demo" class="anchor" aria-hidden="true" tabindex="-1" href="#demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">演示</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://wave.devdojo.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请在此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看现场演示</font><font style="vertical-align: inherit;">，或单击下面的按钮将您自己的实例部署到 DigitalOcean。</font></font></p>
+<p dir="auto"><a href="https://cloud.digitalocean.com/apps/new?repo=https://github.com/thedevdojo/wave/tree/main" rel="nofollow"><img src="https://camo.githubusercontent.com/159b79f1d2eb07b3de258a6abef0fdc09c4bbed5cbfb6f51642c27d5f93a3b6d/68747470733a2f2f7777772e6465706c6f79746f646f2e636f6d2f646f2d62746e2d626c75652e737667" width="240" alt="部署到 DO" data-canonical-src="https://www.deploytodo.com/do-btn-blue.svg" style="max-width: 100%;"></a></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-installation" class="anchor" aria-hidden="true" tabindex="-1" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Wave 在PHP 8.1</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Laravel 10.x</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上运行</font><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要安装 Wave，您需要克隆或下载此存储库：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>git clone https://github.com/thedevdojo/wave.git project_name
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="git clone https://github.com/thedevdojo/wave.git project_name" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接下来，我们可以通过以下</font></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4 个简单步骤</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装 Wave ：</font></font></p>
+<h3 tabindex="-1" dir="auto"><a id="user-content-1-create-a-new-database" class="anchor" aria-hidden="true" tabindex="-1" href="#1-create-a-new-database"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">1. 创建一个新数据库</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在安装过程中我们需要使用 MySQL 数据库。</font><font style="vertical-align: inherit;">对于下一阶段，您需要创建一个新数据库并保留凭据。</font></font></p>
+<div class="highlight highlight-source-sql notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">CREATE</span> <span class="pl-k">DATABASE</span> <span class="pl-en">wave</span>;
+<span class="pl-k">CREATE</span> <span class="pl-k">USER</span> '<span class="pl-en">wave</span>'@<span class="pl-s"><span class="pl-pds">'</span>localhost<span class="pl-pds">'</span></span> IDENTIFIED BY <span class="pl-s"><span class="pl-pds">'</span>wave_password<span class="pl-pds">'</span></span>;
+<span class="pl-k">GRANT</span> ALL PRIVILEGES <span class="pl-k">ON</span> wave.<span class="pl-k">*</span> TO <span class="pl-s"><span class="pl-pds">'</span>wave<span class="pl-pds">'</span></span>@<span class="pl-s"><span class="pl-pds">'</span>localhost<span class="pl-pds">'</span></span>;</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="CREATE DATABASE wave;
 CREATE USER 'wave'@'localhost' IDENTIFIED BY 'wave_password';
-GRANT ALL PRIVILEGES ON wave.* TO 'wave'@'localhost';
-```
-
-### 2. Copy the `.env.example` file
-
-We need to specify our Environment variables for our application. You will see a file named `.env.example`, you will need to duplicate that file and rename it to `.env`.
-
-Then, open up the `.env` file and update your *DB_DATABASE*, *DB_USERNAME*, and *DB_PASSWORD* in the appropriate fields. You will also want to update the *APP_URL* to the URL of your application.
-
-```bash
-APP_URL=http://wave.test
+GRANT ALL PRIVILEGES ON wave.* TO 'wave'@'localhost';" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-2-copy-the-envexample-file" class="anchor" aria-hidden="true" tabindex="-1" href="#2-copy-the-envexample-file"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2.复制</font></font><code>.env.example</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文件</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们需要为我们的应用程序指定环境变量。</font><font style="vertical-align: inherit;">您将看到一个名为 的文件</font></font><code>.env.example</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，您需要复制该文件并将其重命名为</font></font><code>.env</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">.</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后，打开该文件并</font><font style="vertical-align: inherit;">在相应字段中</font></font><code>.env</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DB_DATABASE</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DB_USERNAME</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DB_PASSWORD 。</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">您还需要将</font></font><em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">APP_URL</font></font></em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更新为您的应用程序的 URL。</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>APP_URL=http://wave.test
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=wave
 DB_USERNAME=root
-DB_PASSWORD=
-```
+DB_PASSWORD=</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="APP_URL=http://wave.test
 
-
-### 3. Add Composer Dependencies
-
-First, you should ensure that your web server has the required PHP extensions installed:
-
-> [Laravel PHP Requirements](https://laravel.com/docs/9.x/deployment#server-requirements)
-
-Following that, we'll need to install all composer dependencies through the following command:
-```php
-composer install
-```
-
-### 4. Run Migrations and Seeds
-
-We must migrate our database schema into our database, which we can accomplish by running the following command:
-```php
-php artisan migrate
-```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=wave
+DB_USERNAME=root
+DB_PASSWORD=" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-3-add-composer-dependencies" class="anchor" aria-hidden="true" tabindex="-1" href="#3-add-composer-dependencies"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3.添加Composer依赖</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">首先，您应该确保您的 Web 服务器安装了所需的 PHP 扩展：</font></font></p>
+<blockquote>
+<p dir="auto"><a href="https://laravel.com/docs/9.x/deployment#server-requirements" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Laravel PHP 要求</font></font></a></p>
+</blockquote>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">接下来，我们需要通过以下命令安装所有 Composer 依赖项：</font></font></p>
+<div class="highlight highlight-text-html-php notranslate position-relative overflow-auto" dir="auto"><pre>composer install</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="composer install" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h3 tabindex="-1" dir="auto"><a id="user-content-4-run-migrations-and-seeds" class="anchor" aria-hidden="true" tabindex="-1" href="#4-run-migrations-and-seeds"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4. 运行迁移和种子</font></font></h3>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们必须将数据库模式迁移到数据库中，可以通过运行以下命令来完成：</font></font></p>
+<div class="highlight highlight-text-html-php notranslate position-relative overflow-auto" dir="auto"><pre>php artisan migrate</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="php artisan migrate" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<br><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+最后，我们需要使用以下命令为数据库播种：
+</font></font><div class="highlight highlight-text-html-php notranslate position-relative overflow-auto" dir="auto"><pre>php artisan db:seed</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="php artisan db:seed" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
 <br>
-Finally, we will need to seed our database with the following command:
-
-```php
-php artisan db:seed
-```
-<br>
-
-🎉 And that's it! You will now be able to visit your URL and see your Wave application up and running.
-
-
-## Watch, Learn, and Build
-
-We've also got a full video series on how you can setup, build, and configure Wave. 🍿 You can watch first few videos for free, and additional videos will require a [DevDojo Pro](https://devdojo.com/pro) subscription. By subscribing to a [DevDojo Pro](https://devdojo.com/pro) subscription you will also be supporting the ongoing development of this project. It's a win win! 🙌
-
-[Click here to watch the Wave Video Series](https://devdojo.com/course/wave).
-
-
-## Documentation
-
-Checkout the [official documentation here](https://wave.devdojo.com/docs).
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🎉 就是这样！</font><font style="vertical-align: inherit;">您现在可以访问您的 URL 并查看您的 Wave 应用程序已启动并正在运行。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-watch-learn-and-build" class="anchor" aria-hidden="true" tabindex="-1" href="#watch-learn-and-build"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">观看、学习和构建</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们还提供了有关如何设置、构建和配置 Wave 的完整视频系列。</font><font style="vertical-align: inherit;">🍿 您可以免费观看前几个视频，其他视频需要订阅</font></font><a href="https://devdojo.com/pro" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DevDojo Pro</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font><font style="vertical-align: inherit;">通过订阅</font></font><a href="https://devdojo.com/pro" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DevDojo Pro</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">订阅，您还将支持该项目的持续开发。</font><font style="vertical-align: inherit;">这是双赢！</font><font style="vertical-align: inherit;">🙌</font></font></p>
+<p dir="auto"><a href="https://devdojo.com/course/wave" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">单击此处观看 Wave 视频系列</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-documentation" class="anchor" aria-hidden="true" tabindex="-1" href="#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://wave.devdojo.com/docs" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在这里</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">查看官方文档</font><font style="vertical-align: inherit;">。</font></font></p>
+</article></div>
